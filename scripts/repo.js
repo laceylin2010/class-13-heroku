@@ -22,11 +22,11 @@
       url: '/github/users/laceylin2010/repos' +
             '?per_page=100' +
             '&sort=updated',
-      }
+      })
       .done(function(data, message, xhr) {
         repos.all = data;
       })
-      .done(callback);
+        .done(callback);
   };
 
   repos.with = function(attr) {
